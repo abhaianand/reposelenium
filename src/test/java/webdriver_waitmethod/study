@@ -1,0 +1,8 @@
+wedriver have only 3 wait
+1 implicit wait
+2 explicit wait
+3 fluent wait
+- no such element exception - time desynchronization
+- element not found- - xpath/id not proper
+
+

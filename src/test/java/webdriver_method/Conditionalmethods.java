@@ -18,7 +18,7 @@ public class Conditionalmethods {
 
 
         //isDisplayed - verify that the logo is displayed or not
-      WebElement logo =  driver.findElement(By.xpath("//img[@alt=\"nopCommerce demo store\"]")); //find element always return webelemet so return type is element not string
+
       WebElement logo =  driver.findElement(By.xpath("//img[@src=\"/images/Toolsqa.jpg\"]")); //find element always return Webelemet so return type is element not string
 // check the logo is presnst or not use is displayed
 
