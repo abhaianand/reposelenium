@@ -1,0 +1,20 @@
+1 get method
+2 conditional method
+3 browser methods
+4 navigate method
+5 wait methods
+
+get method
+------------
+get url-opens the url on browser
+gettitle - return the title of page
+getcurrent url-return url of the page
+getpagesource-retuen the source code of the page
+getwindowhanle-return the id of single browser
+getwindowhandles-return the id's of the multiple broswer windows
+
+condition method - true / false - return boolean value
+---------------
+isdisplayed()
+isenabled()
+isselected()
