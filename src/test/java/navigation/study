@@ -1,0 +1,18 @@
+navigational command
+
+1 navigate().to()
+2 navigate().back()
+3 navigate().forward()
+4 navigate().refresh()
+5 driver.switch().window()-windows switch windows handle-getwindows handle
+
+
+
+navigate().to()
+------------------
+function wise same as driver.get but the have some difference
+-in driver.get we pass url in string - only we can pass string value
+-navigate.to method also string format , here we can pass in the form of string and in the form url object
+
+----list and set---
+set we can not get single item so convert it into list then get the value(single value)

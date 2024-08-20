@@ -4,5 +4,32 @@ wedriver have only 3 wait
 3 fluent wait
 - no such element exception - time desynchronization
 - element not found- - xpath/id not proper
+1 implicit wait
+------------------
+need to write only single time it will take care rest of the code
+if the element is found with in time it will jump to next code or not found
+it will wait for the defined time
+even if not found even after the defined time it will throw error
+
+
+2 explicit wait
+-------------------
+we have both time and condition - first declare and the use
+first check the condition then check the time
+it wait for condition for maximum time of 10s and then it will throws the error
+
+3 fluent wait
+--------------
+first declare and the condition
+syntax
+wait<webdriver> object = new Fluentwait<webdrver>(driver)
+                        .withtimeout(Duration.of seconds(30)) ---- normal time out
+                        .pollingevery(Duration.ofseconds(5)) ----- frequency of checking , every 5seconds it go and check
+                        .ignoring(nosuchelementexception.class); ---- suppose in every 5 seonds there is no elemnt it will throw exception and this line will handle the same
+
+
+
+
+
 
 
