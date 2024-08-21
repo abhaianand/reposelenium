@@ -1,0 +1,21 @@
+alert are not the part of webelement so we have tp switch the webdriver from the page to the alert using switch keyword
+switch alert return all the thing in the alert so that we can take control over it
+
+alert
+------
+switchto.alert.accept - click ok
+switchto.alert.dismiss--click cancel
+switch.alert.gettext- get the text in the alert
+switchto.alert.sendkeys -  for pass value to the input filed
+
+
+
+authentication alert
+---------------------
+so in javascript the pompt can only handle with single text input filed
+so if we want to pass username and password , we can pass username and password in url during get url
+syntax
+https//username:password@url  , username-admin ,password - admin
+
+
+
