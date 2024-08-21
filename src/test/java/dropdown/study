@@ -1,0 +1,23 @@
+1 normal select dropdown
+2 bootstrap dropdown
+3 hidden dropdown
+
+in the html if we have select tage we can say that it is select drop down , othere tha select everything is bootstrap or hidden type
+
+1 normal select dropdown
+---------------------------
+in selenium we have select class , pass the webelement in a select class object
+first locate the parent web element of the dropdown
+in selenium we have a class called select , so pass the parent dropdown elemnt into the object of select class
+ and we have 3 methods in that class
+ 1 select by value
+ 2 select by index
+ 3 select by visible text
+
+ how to capture all the option from dropdown
+ ---.getoptions();
+
+
+
+
+

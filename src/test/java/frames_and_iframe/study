@@ -1,0 +1,11 @@
+frame/iframe
+-------------
+a 3rd party webpage inside our webpage is called iframe
+ we cannot access the page because the wedriver only work for our page
+ but we can switch from our page to 3rd aprty pages
+
+
+ driver.switchto.frame(name)
+ driver.switchto.frame(id)
+  driver.switchto.frame(webelement)
+  driver.switchto.frame(index)
