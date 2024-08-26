@@ -17,6 +17,32 @@ in selenium we have a class called select , so pass the parent dropdown elemnt i
  how to capture all the option from dropdown
  ---.getoptions();
 
+ to find all the options of dropdown
+ getoptions()
+ to get the number of all the dropdown
+ .size()
+
+ 2 bootstrap dropdown
+ -----------------------
+ first click the class of dropdown
+ then clicks the check box of the dropdown
+
+ 3 hidden dropdown
+ ------------------
+ generally the dropdown is hidden so
+ first you have to make the visible in HTML of the DOM
+ so go to event listener and delete and blur option
+ ---- go to even listern do inspect the drop down and comeback the event litern and clear the blur option
+ the do indpect the dropdown
+
+
+ first click the dropdown the click the dropdown option
+
+
+
+
+
+
 
 
 

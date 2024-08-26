@@ -1,0 +1,7 @@
+date filed with inputbox - we can send date with sendkeys
+normal logic
+---------------
+firs find the year and moth , unless and untill the actual data is match with expected data clicks the next button to the end
+comapre thye current month and year with with our input data
+until it match clicks the next button of the calender
+use while true for loop and if else with break for condition

@@ -1,0 +1,53 @@
+for any search filed with auto suggestion result
+first do the search with key and store all the search suggestion in list array , it will be a list of array
+from that area using if else statement go to the required search word/key
+STUCK
+
+table
+------------
+1 static web table - fixed
+2 dynamic web table - table size increase
+3 pagination -
+every tabel should tave tabel attribute
+td- table data
+tr- table row
+th- table header
+forloop data pass to xpath
+-------------------------------------
+inorder to pass the loop variable to the xpath - syntax - for every iteration we have to pass column number and row number to the tr and td so for that syntax "+r+" and "+c+"
+
+sum of all amount in  a column
+----------------------------------
+for loop, get text, convert string to int using itegre.parsent
+a=a+b
+
+Dynamic table with page nation
+---------------------------------
+setp 1 - find out the total number of pages
+step 2 - raed all the data with respect to each page
+substring - a class in string used to read the data in a string
+staring is inclusive of index value and ending is exclusive of index value
+s.substring(26,30); - static values
+for dynamic value - so first get the starting index and find the ending index first
+so in java - s.indexof(find the starting index of first bracket // final index last -1)
+indexof("("+1)
+indexof("pages"-1)
+ int starting_index =  total_page_string_value.indexOf("(")+1;
+        int ending_index = total_page_string_value.indexOf("Pages")-1;
+        System.out.println(starting_index+" "+ending_index);
+        Showing 1 to 10 of 190810 (190810 Pages)
+        0123456789012345678901234567890123456789
+
+        String total_page = total_page_string_value.substring(starting_index, ending_index);
+        System.out.println(total_page);
+
+  //now clicks the all page number to the last page number
+
+
+we also have bootstrap table
+----------------------------------
+
+
+
+
+
