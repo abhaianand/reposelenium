@@ -1,1 +1,13 @@
 javscrpitExecuter- interface in selenium
+
+we can scroll in 3 type
+1 scroll to some pixel number
+2 scroll to any element
+3 scroll to the bottom of the page
+
+
+file upload
+send keys - send the url location of the file
+for multiple file upload save each file path into any variable and the send the variable with concat (+)
+
+
