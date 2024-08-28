@@ -1,0 +1,17 @@
+exel is not support on selenium so wee need 3rd party api for supporting - apche api
+
+Excel file ---->workbook---->sheet>rows------>cells
+
+for handling this we hav diff class for the same 
+
+
+read - Fileinputstreem (java class)
+write -- fileoutputstreem(javaclass)
+
+xssfworkbook -  workbook
+xssfsheet - sheet
+xssfrow - row
+xssfcell - cell
+
+
+

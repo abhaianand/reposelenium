@@ -1,0 +1,24 @@
+broken link
+------------------
+if you clicks on a link the server will return resourcebut if it is not return any source it will return thr status code
+so that the link is broken
+condition the status code is greater than or equal to 400 it is a broken link
+
+
+condition
+--------------
+1 link should have href attributes with values
+2 server code
+3 code >=400 -- broken link
+
+algo
+1 get all the links using tage name of a   <a
+2 using for loop pass the all elements into the loop
+3 get the href values of all the tage we located
+4 convert the href value from string to the url
+5 start connection with server
+6 send url to server
+7 get the response code
+8 compare the response with code 400
+9 print result
+
