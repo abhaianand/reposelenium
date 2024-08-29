@@ -1,6 +1,6 @@
 exel is not support on selenium so wee need 3rd party api for supporting - apche api
 
-Excel file ---->workbook---->sheet>rows------>cells
+file ---->workbook---->sheet>rows------>cells
 
 for handling this we hav diff class for the same 
 
@@ -12,6 +12,17 @@ xssfworkbook -  workbook
 xssfsheet - sheet
 xssfrow - row
 xssfcell - cell
+
+
+writing data
+--------------
+create a sheet
+create row 1
+create a cell 1
+write data to the cell in row 1
+
+pass the workbook to file
+
 
 
 
